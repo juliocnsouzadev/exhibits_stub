@@ -262,7 +262,7 @@ func main() {
 	})
 
 	log.Println("Starting server on :8000")
-	if err := http.ListenAndServe(":8000", nil); err != nil {
+	if err := http.ListenAndServe(":8080", nil); err != nil {
 		log.Fatal(err)
 	}
 }
