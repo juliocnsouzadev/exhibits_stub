@@ -140,6 +140,8 @@ func findFile(filename string) (string, error) {
 }
 
 func main() {
+	infoLogger := log.New(os.Stdout, "", log.LstdFlags)
+	errorLogger := log.New(os.Stderr, "ERROR: ", log.LstdFlags|log.Lshortfile)
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "text/plain")
 		w.WriteHeader(http.StatusOK)
@@ -147,24 +149,24 @@ func main() {
 	})
 
 	http.HandleFunc("/exhibits", func(w http.ResponseWriter, r *http.Request) {
-		log.Printf("Received request: %s %s from %s", r.Method, r.URL.Path, r.RemoteAddr)
+		infoLogger.Printf("Received request: %s %s from %s", r.Method, r.URL.Path, r.RemoteAddr)
 		filePath, err := findFile("exhibits.json")
 		if err != nil {
 			http.Error(w, "Error finding exhibits.json", http.StatusInternalServerError)
-			log.Printf("Error finding file: %v", err)
+			errorLogger.Printf("Error finding file: %v", err)
 			return
 		}
 		data, err := os.ReadFile(filePath)
 		if err != nil {
 			http.Error(w, "Error reading exhibits.json", http.StatusInternalServerError)
-			log.Printf("Error reading file %s: %v", filePath, err)
+			errorLogger.Printf("Error reading file %s: %v", filePath, err)
 			return
 		}
 
 		var exhibits []ExhibitDTO
 		if err := json.Unmarshal(data, &exhibits); err != nil {
 			http.Error(w, "Error parsing exhibits.json", http.StatusInternalServerError)
-			log.Printf("Error unmarshalling json: %v", err)
+			errorLogger.Printf("Error unmarshalling json: %v", err)
 			return
 		}
 
@@ -201,29 +203,29 @@ func main() {
 
 		w.Header().Set("Content-Type", "application/json")
 		if err := json.NewEncoder(w).Encode(filteredExhibits); err != nil {
-			log.Printf("Error encoding response: %v", err)
+			errorLogger.Printf("Error encoding response: %v", err)
 		}
 	})
 
 	http.HandleFunc("/artefacts", func(w http.ResponseWriter, r *http.Request) {
-		log.Printf("Received request: %s %s from %s", r.Method, r.URL.Path, r.RemoteAddr)
+		infoLogger.Printf("Received request: %s %s from %s", r.Method, r.URL.Path, r.RemoteAddr)
 		filePath, err := findFile("qm_data.json")
 		if err != nil {
-			http.Error(w, "Error finding `qm_data.json`: " +err.Error(), http.StatusInternalServerError)
-			log.Printf("Error finding file: %v", err)
+			http.Error(w, "Error finding `qm_data.json`: "+err.Error(), http.StatusInternalServerError)
+			errorLogger.Printf("Error finding file: %v", err)
 			return
 		}
 		data, err := os.ReadFile(filePath)
 		if err != nil {
-			http.Error(w, "Error reading qm_data.json: " +err.Error(), http.StatusInternalServerError)
-			log.Printf("Error reading file %s: %v", filePath, err)
+			http.Error(w, "Error reading qm_data.json: "+err.Error(), http.StatusInternalServerError)
+			errorLogger.Printf("Error reading file %s: %v", filePath, err)
 			return
 		}
 
 		var qmResponse QMResponse
 		if err := json.Unmarshal(data, &qmResponse); err != nil {
-			http.Error(w, "Error parsing qm_data.json: "  +err.Error(), http.StatusInternalServerError)
-			log.Printf("Error unmarshalling json: %v", err)
+			http.Error(w, "Error parsing qm_data.json: "+err.Error(), http.StatusInternalServerError)
+			errorLogger.Printf("Error unmarshalling json: %v", err)
 			return
 		}
 
@@ -257,12 +259,12 @@ func main() {
 
 		w.Header().Set("Content-Type", "application/json")
 		if err := json.NewEncoder(w).Encode(filteredArtefacts); err != nil {
-			log.Printf("Error encoding response: %v", err)
+			errorLogger.Printf("Error encoding response: %v", err)
 		}
 	})
 
-	log.Println("Starting server on 0.0.0.0:8080")
+	infoLogger.Println("Starting server on 0.0.0.0:8080")
 	if err := http.ListenAndServe("0.0.0.0:8080", nil); err != nil {
-		log.Fatal(err)
+		errorLogger.Fatal(err)
 	}
 }
