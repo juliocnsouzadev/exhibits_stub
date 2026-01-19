@@ -140,6 +140,12 @@ func findFile(filename string) (string, error) {
 }
 
 func main() {
+	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "text/plain")
+		w.WriteHeader(http.StatusOK)
+		_, _ = w.Write([]byte("Hello, world!"))
+	})
+
 	http.HandleFunc("/exhibits", func(w http.ResponseWriter, r *http.Request) {
 		log.Printf("Received request: %s %s from %s", r.Method, r.URL.Path, r.RemoteAddr)
 		filePath, err := findFile("exhibits.json")
