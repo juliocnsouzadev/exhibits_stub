@@ -1,0 +1,2822 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "count": {
+      "type": "integer"
+    },
+    "next": {
+      "type": "string"
+    },
+    "previous": {
+      "type": "null"
+    },
+    "results": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "objectNumber": {
+              "type": "string"
+            },
+            "titleEN": {
+              "type": "string"
+            },
+            "titleAR": {
+              "type": "string"
+            },
+            "objectNameEN": {
+              "type": "string"
+            },
+            "objectNameAR": {
+              "type": "string"
+            },
+            "artistEN": {
+              "type": "string"
+            },
+            "artistAR": {
+              "type": "string"
+            },
+            "museum": {
+              "type": "object",
+              "properties": {
+                "slug": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "labelEN": {
+                  "type": "string"
+                },
+                "labelAR": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "slug",
+                "label",
+                "labelEN",
+                "labelAR"
+              ]
+            },
+            "openingTimes": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                }
+              ]
+            },
+            "summaryEN": {
+              "type": "string"
+            },
+            "summaryAR": {
+              "type": "string"
+            },
+            "objectImages": {
+              "type": "object",
+              "properties": {
+                "original": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                },
+                "card": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "original",
+                "card"
+              ]
+            },
+            "relatedWebpages": {
+              "type": "array",
+              "items": {}
+            },
+            "object3dEmbed": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "objectNumber",
+            "titleEN",
+            "titleAR",
+            "objectNameEN",
+            "objectNameAR",
+            "artistEN",
+            "artistAR",
+            "museum",
+            "openingTimes",
+            "summaryEN",
+            "summaryAR",
+            "objectImages",
+            "relatedWebpages",
+            "object3dEmbed"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "objectNumber": {
+              "type": "string"
+            },
+            "titleEN": {
+              "type": "string"
+            },
+            "titleAR": {
+              "type": "string"
+            },
+            "objectNameEN": {
+              "type": "string"
+            },
+            "objectNameAR": {
+              "type": "string"
+            },
+            "artistEN": {
+              "type": "string"
+            },
+            "artistAR": {
+              "type": "string"
+            },
+            "museum": {
+              "type": "object",
+              "properties": {
+                "slug": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "labelEN": {
+                  "type": "string"
+                },
+                "labelAR": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "slug",
+                "label",
+                "labelEN",
+                "labelAR"
+              ]
+            },
+            "openingTimes": {
+              "type": "array",
+              "items": {}
+            },
+            "summaryEN": {
+              "type": "string"
+            },
+            "summaryAR": {
+              "type": "string"
+            },
+            "objectImages": {
+              "type": "object",
+              "properties": {
+                "original": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                },
+                "card": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "original",
+                "card"
+              ]
+            },
+            "relatedWebpages": {
+              "type": "array",
+              "items": {}
+            },
+            "object3dEmbed": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "objectNumber",
+            "titleEN",
+            "titleAR",
+            "objectNameEN",
+            "objectNameAR",
+            "artistEN",
+            "artistAR",
+            "museum",
+            "openingTimes",
+            "summaryEN",
+            "summaryAR",
+            "objectImages",
+            "relatedWebpages",
+            "object3dEmbed"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "objectNumber": {
+              "type": "string"
+            },
+            "titleEN": {
+              "type": "string"
+            },
+            "titleAR": {
+              "type": "string"
+            },
+            "objectNameEN": {
+              "type": "string"
+            },
+            "objectNameAR": {
+              "type": "string"
+            },
+            "artistEN": {
+              "type": "string"
+            },
+            "artistAR": {
+              "type": "string"
+            },
+            "museum": {
+              "type": "object",
+              "properties": {
+                "slug": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "labelEN": {
+                  "type": "string"
+                },
+                "labelAR": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "slug",
+                "label",
+                "labelEN",
+                "labelAR"
+              ]
+            },
+            "openingTimes": {
+              "type": "array",
+              "items": {}
+            },
+            "summaryEN": {
+              "type": "string"
+            },
+            "summaryAR": {
+              "type": "string"
+            },
+            "objectImages": {
+              "type": "object",
+              "properties": {
+                "original": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                },
+                "card": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "original",
+                "card"
+              ]
+            },
+            "relatedWebpages": {
+              "type": "array",
+              "items": {}
+            },
+            "object3dEmbed": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "objectNumber",
+            "titleEN",
+            "titleAR",
+            "objectNameEN",
+            "objectNameAR",
+            "artistEN",
+            "artistAR",
+            "museum",
+            "openingTimes",
+            "summaryEN",
+            "summaryAR",
+            "objectImages",
+            "relatedWebpages",
+            "object3dEmbed"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "objectNumber": {
+              "type": "string"
+            },
+            "titleEN": {
+              "type": "string"
+            },
+            "titleAR": {
+              "type": "string"
+            },
+            "objectNameEN": {
+              "type": "string"
+            },
+            "objectNameAR": {
+              "type": "string"
+            },
+            "artistEN": {
+              "type": "string"
+            },
+            "artistAR": {
+              "type": "string"
+            },
+            "museum": {
+              "type": "object",
+              "properties": {
+                "slug": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "labelEN": {
+                  "type": "string"
+                },
+                "labelAR": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "slug",
+                "label",
+                "labelEN",
+                "labelAR"
+              ]
+            },
+            "openingTimes": {
+              "type": "array",
+              "items": {}
+            },
+            "summaryEN": {
+              "type": "string"
+            },
+            "summaryAR": {
+              "type": "string"
+            },
+            "objectImages": {
+              "type": "object",
+              "properties": {
+                "original": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                },
+                "card": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "original",
+                "card"
+              ]
+            },
+            "relatedWebpages": {
+              "type": "array",
+              "items": {}
+            },
+            "object3dEmbed": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "objectNumber",
+            "titleEN",
+            "titleAR",
+            "objectNameEN",
+            "objectNameAR",
+            "artistEN",
+            "artistAR",
+            "museum",
+            "openingTimes",
+            "summaryEN",
+            "summaryAR",
+            "objectImages",
+            "relatedWebpages",
+            "object3dEmbed"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "objectNumber": {
+              "type": "string"
+            },
+            "titleEN": {
+              "type": "string"
+            },
+            "titleAR": {
+              "type": "string"
+            },
+            "objectNameEN": {
+              "type": "string"
+            },
+            "objectNameAR": {
+              "type": "string"
+            },
+            "artistEN": {
+              "type": "string"
+            },
+            "artistAR": {
+              "type": "string"
+            },
+            "museum": {
+              "type": "object",
+              "properties": {
+                "slug": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "labelEN": {
+                  "type": "string"
+                },
+                "labelAR": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "slug",
+                "label",
+                "labelEN",
+                "labelAR"
+              ]
+            },
+            "openingTimes": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                }
+              ]
+            },
+            "summaryEN": {
+              "type": "string"
+            },
+            "summaryAR": {
+              "type": "string"
+            },
+            "objectImages": {
+              "type": "object",
+              "properties": {
+                "original": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                },
+                "card": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "original",
+                "card"
+              ]
+            },
+            "relatedWebpages": {
+              "type": "array",
+              "items": {}
+            },
+            "object3dEmbed": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "objectNumber",
+            "titleEN",
+            "titleAR",
+            "objectNameEN",
+            "objectNameAR",
+            "artistEN",
+            "artistAR",
+            "museum",
+            "openingTimes",
+            "summaryEN",
+            "summaryAR",
+            "objectImages",
+            "relatedWebpages",
+            "object3dEmbed"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "objectNumber": {
+              "type": "string"
+            },
+            "titleEN": {
+              "type": "string"
+            },
+            "titleAR": {
+              "type": "string"
+            },
+            "objectNameEN": {
+              "type": "string"
+            },
+            "objectNameAR": {
+              "type": "string"
+            },
+            "artistEN": {
+              "type": "string"
+            },
+            "artistAR": {
+              "type": "string"
+            },
+            "museum": {
+              "type": "object",
+              "properties": {
+                "slug": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "labelEN": {
+                  "type": "string"
+                },
+                "labelAR": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "slug",
+                "label",
+                "labelEN",
+                "labelAR"
+              ]
+            },
+            "openingTimes": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "openingAt": {
+                      "type": "string"
+                    },
+                    "closingAt": {
+                      "type": "string"
+                    },
+                    "weekday": {
+                      "type": "object",
+                      "properties": {
+                        "number": {
+                          "type": "integer"
+                        },
+                        "name": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "number",
+                        "name"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "openingAt",
+                    "closingAt",
+                    "weekday"
+                  ]
+                }
+              ]
+            },
+            "summaryEN": {
+              "type": "string"
+            },
+            "summaryAR": {
+              "type": "string"
+            },
+            "objectImages": {
+              "type": "object",
+              "properties": {
+                "original": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                },
+                "card": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "original",
+                "card"
+              ]
+            },
+            "relatedWebpages": {
+              "type": "array",
+              "items": {}
+            },
+            "object3dEmbed": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "objectNumber",
+            "titleEN",
+            "titleAR",
+            "objectNameEN",
+            "objectNameAR",
+            "artistEN",
+            "artistAR",
+            "museum",
+            "openingTimes",
+            "summaryEN",
+            "summaryAR",
+            "objectImages",
+            "relatedWebpages",
+            "object3dEmbed"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "objectNumber": {
+              "type": "string"
+            },
+            "titleEN": {
+              "type": "string"
+            },
+            "titleAR": {
+              "type": "string"
+            },
+            "objectNameEN": {
+              "type": "string"
+            },
+            "objectNameAR": {
+              "type": "string"
+            },
+            "artistEN": {
+              "type": "string"
+            },
+            "artistAR": {
+              "type": "string"
+            },
+            "museum": {
+              "type": "object",
+              "properties": {
+                "slug": {
+                  "type": "string"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "labelEN": {
+                  "type": "string"
+                },
+                "labelAR": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "slug",
+                "label",
+                "labelEN",
+                "labelAR"
+              ]
+            },
+            "openingTimes": {
+              "type": "array",
+              "items": {}
+            },
+            "summaryEN": {
+              "type": "string"
+            },
+            "summaryAR": {
+              "type": "string"
+            },
+            "objectImages": {
+              "type": "object",
+              "properties": {
+                "original": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                },
+                "card": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "focalPoint": {
+                          "type": "object",
+                          "properties": {
+                            "x": {
+                              "type": "integer"
+                            },
+                            "y": {
+                              "type": "integer"
+                            }
+                          },
+                          "required": [
+                            "x",
+                            "y"
+                          ]
+                        },
+                        "altTextEN": {
+                          "type": "string"
+                        },
+                        "altTextAR": {
+                          "type": "string"
+                        },
+                        "creditLineEN": {
+                          "type": "string"
+                        },
+                        "creditLineAR": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "url",
+                        "width",
+                        "height",
+                        "focalPoint",
+                        "altTextEN",
+                        "altTextAR",
+                        "creditLineEN",
+                        "creditLineAR"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "original",
+                "card"
+              ]
+            },
+            "relatedWebpages": {
+              "type": "array",
+              "items": {}
+            },
+            "object3dEmbed": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "required": [
+            "objectNumber",
+            "titleEN",
+            "titleAR",
+            "objectNameEN",
+            "objectNameAR",
+            "artistEN",
+            "artistAR",
+            "museum",
+            "openingTimes",
+            "summaryEN",
+            "summaryAR",
+            "objectImages",
+            "relatedWebpages",
+            "object3dEmbed"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "count",
+    "next",
+    "previous",
+    "results"
+  ]
+}

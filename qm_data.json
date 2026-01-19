@@ -1,0 +1,752 @@
+{
+  "count": 539,
+  "next": "https://tst.collection.qm.org.qa.fabriquehq.nl/api/v1/objects/scale/?page=2",
+  "previous": null,
+  "results": [
+    {
+      "objectNumber": "PO.5.1997",
+      "titleEN": "Flask",
+      "titleAR": "دورق",
+      "objectNameEN": "",
+      "objectNameAR": "",
+      "artistEN": "",
+      "artistAR": "",
+      "museum": {
+        "slug": "museum-of-islamic-art",
+        "label": "Museum of Islamic Art",
+        "labelEN": "Museum of Islamic Art",
+        "labelAR": "متحف الفن الإسلامي"
+      },
+      "openingTimes": [
+        {
+          "openingAt": "15:00",
+          "closingAt": "22:00",
+          "weekday": {
+            "number": 0,
+            "name": "Sunday"
+          }
+        },
+        {
+          "openingAt": "13:00",
+          "closingAt": "21:00",
+          "weekday": {
+            "number": 1,
+            "name": "Monday"
+          }
+        },
+        {
+          "openingAt": "00:00",
+          "closingAt": "23:59",
+          "weekday": {
+            "number": 2,
+            "name": "Tuesday"
+          }
+        },
+        {
+          "openingAt": "00:00",
+          "closingAt": "23:59",
+          "weekday": {
+            "number": 3,
+            "name": "Wednesday"
+          }
+        },
+        {
+          "openingAt": "",
+          "closingAt": "",
+          "weekday": {
+            "number": 4,
+            "name": "Thursday"
+          }
+        },
+        {
+          "openingAt": "",
+          "closingAt": "",
+          "weekday": {
+            "number": 5,
+            "name": "Friday"
+          }
+        },
+        {
+          "openingAt": "",
+          "closingAt": "",
+          "weekday": {
+            "number": 6,
+            "name": "Saturday"
+          }
+        }
+      ],
+      "summaryEN": "Iznik pottery is named after the town of Iznik, in western Anatolia (modern day Turkey), where it was initially made. The earliest evidence of Iznik production occurred during the reign of Ottoman Sultan Mehmed II (r. 854-886 AH/1451-81 CE), whose appreciation for fine blue and white Chinese Ming porcelains inspired him to start making similar ceramics. As such, early Iznik pottery was blue and white, and largely influenced by Chinese motifs. This blue and white flask is unusual in its shape, with its rotund body and narrow neck. The flask would have originally had a long slender neck, now broken. The decoration around the flask's bulbous body shows trees, floral patterns, and parrots on one side; while on the opposite side an architectural vista - with structures bearing cross-shaped windows – is depicted, perhaps itself a representation of Sultan Mehmed II's new palatial complex, the Topkapı Saray (built between 863-870 AH/1459-65 CE). This fine flask was probably produced around the late 9th or early 10th century AH/ late15th or early 16th century CE,  shortly after the palace was built, and used at the Ottoman court as a wine container. ",
+      "summaryAR": "سُمي الخزف الإزنيقي على اسم مدينة إزنيق في غرب الأناضول (تركيا حالياً) حيث تمت صناعته لأول مرة. كان أول دليل على إنتاج الإزنيق في عهد السلطان العثماني محمد الثاني (فترة الحكم. 854 - 886هـ / 1451م - 1481م)، والذي ألهمه تقديره لخزف مينغ الصيني الجميل باللونين الأزرق والأبيض البدء في صنع خزفيات مماثلة. على هذا النحو، كان فخار إزنيق القديم باللونين الأزرق والأبيض، وتأثر إلى حد كبير بالزخارف الصينية. هذا الدورق ذو اللونين الأزرق والأبيض له شكل استثنائي بجسمه المستدير وعنقه الضيق. كان للدورق في الأصل رقبة طويلة رفيعة مكسورة الآن. الزخرفة حول جسم القارورة المنتفخ تُظهر الأشجار وأنماط الأزهار والببغاوات على جانب واحد؛ بينما على الجانب الآخر تُظهر مشهد معماري بهياكل تحمل نوافذ على شكل صليب –قد تكون على الأرجح في حد ذاتها تمثيلاً لمجمع القصر الجديد للسلطان محمد الثاني، توبكابي سراي (بني بين 1459م - 1465م). في الغالب تم إنتاج هذا الدورق الجميل حوالي عام 1485م - 1535م بعد وقت قصير من بناء القصر، وكان يستخدم في البلاط العثماني كوعاء نبيذ.",
+      "objectImages": {
+        "original": [
+          {
+            "url": "/media/images/PO.5.1997_006.MQ.width-900.jpg",
+            "width": 900,
+            "height": 793,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, Museum of Islamic Art. Photo: Samar Kassab",
+            "creditLineAR": "متاحف قطر، متحف الفن الإسلامي. الصورة: سمر كساب"
+          },
+          {
+            "url": "/media/images/PO.5.1997_006.MQ.width-2048.jpg",
+            "width": 2048,
+            "height": 1806,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, Museum of Islamic Art. Photo: Samar Kassab",
+            "creditLineAR": "متاحف قطر، متحف الفن الإسلامي. الصورة: سمر كساب"
+          }
+        ],
+        "card": [
+          {
+            "url": "/media/images/PO.5.1997_006.MQ.width-180.jpg",
+            "width": 180,
+            "height": 158,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, Museum of Islamic Art. Photo: Samar Kassab",
+            "creditLineAR": "متاحف قطر، متحف الفن الإسلامي. الصورة: سمر كساب"
+          },
+          {
+            "url": "/media/images/PO.5.1997_006.MQ.width-360.jpg",
+            "width": 360,
+            "height": 317,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, Museum of Islamic Art. Photo: Samar Kassab",
+            "creditLineAR": "متاحف قطر، متحف الفن الإسلامي. الصورة: سمر كساب"
+          }
+        ]
+      },
+      "relatedWebpages": [],
+      "object3dEmbed": [],
+      "coords": {
+        "latitude": 25.377072,
+        "longitude": 51.091254
+      }
+    },
+    {
+      "objectNumber": "QM.2021.0740",
+      "titleEN": "Fish Hook Made of Wood and Seashell",
+      "titleAR": "خطاف سمك، مصنوع من الخشب والأصداف البحرية",
+      "objectNameEN": "",
+      "objectNameAR": "",
+      "artistEN": "",
+      "artistAR": "",
+      "museum": {
+        "slug": "3-2-1-qatar-olympic-and-sports-museum",
+        "label": "3-2-1 Qatar Olympic and Sports Museum",
+        "labelEN": "3-2-1 Qatar Olympic and Sports Museum",
+        "labelAR": "3-2-1 متحف قطر الأولمبي والرياضي"
+      },
+      "openingTimes": [],
+      "summaryEN": "This fish hook of wood, abalone shell, and mother of pearl was collected at the end of the 1800s in New Zealand.\n\nAsian and Oceanic cultures have long maritime traditions. From fishing and seafood harvesting to pearl diving and boat racing, most practices endure as important symbols of local traditions and craft skills.",
+      "summaryAR": "عُثر على خطّاف صيد السمك هذا في نيوزيلندا في أواخر القرن التاسع عشر، وهو مصنوع من الخشب، وصدفة الأبالون، وعرق اللؤلؤ.\n \nتتمتع الثقافات الآسيوية والساحلية بتقاليد بحرية عريقة، وما تزال العديد من الممارسات، مثل صيد الأسماك وجمع المأكولات البحرية والغوص بحثاً عن اللؤلؤ وسباقات القوارب، رموزاً هامة تعكس أصالة التقاليد المحلية لهذه الثقافات ومهارات حِرفييها.",
+      "objectImages": {
+        "original": [
+          {
+            "url": "/media/images/QM.2021.0740.width-900.jpg",
+            "width": 900,
+            "height": 598,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, 3-2-1 Qatar Olympic and Sports Museum",
+            "creditLineAR": "متاحف قطر، 3-2-1 متحف قطر الأولمبي والرياضي"
+          },
+          {
+            "url": "/media/images/QM.2021.0740.width-2048.jpg",
+            "width": 2048,
+            "height": 1362,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, 3-2-1 Qatar Olympic and Sports Museum",
+            "creditLineAR": "متاحف قطر، 3-2-1 متحف قطر الأولمبي والرياضي"
+          }
+        ],
+        "card": [
+          {
+            "url": "/media/images/QM.2021.0740.width-180.jpg",
+            "width": 180,
+            "height": 119,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, 3-2-1 Qatar Olympic and Sports Museum",
+            "creditLineAR": "متاحف قطر، 3-2-1 متحف قطر الأولمبي والرياضي"
+          },
+          {
+            "url": "/media/images/QM.2021.0740.width-360.jpg",
+            "width": 360,
+            "height": 239,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, 3-2-1 Qatar Olympic and Sports Museum",
+            "creditLineAR": "متاحف قطر، 3-2-1 متحف قطر الأولمبي والرياضي"
+          }
+        ]
+      },
+      "relatedWebpages": [],
+      "object3dEmbed": [],
+      "coords": {
+        "latitude": 25.267085,
+        "longitude": 51.180867
+      }
+    },
+    {
+      "objectNumber": "IMM.PH.AB.9921.23.2",
+      "titleEN": "A Size (Saïs) 27 May 1872, Alexandria",
+      "titleAR": "سائس، 27 مايو 1872، الإسكندرية",
+      "objectNameEN": "",
+      "objectNameAR": "",
+      "artistEN": "",
+      "artistAR": "",
+      "museum": {
+        "slug": "general-collection",
+        "label": "General Collection",
+        "labelEN": "General Collection",
+        "labelAR": "المقتنيات العامة"
+      },
+      "openingTimes": [],
+      "summaryEN": "",
+      "summaryAR": "",
+      "objectImages": {
+        "original": [
+          {
+            "url": "/media/images/IMM.PH.AB.9921.23.2_20240710_001.MQ.width-900.jpg",
+            "width": 900,
+            "height": 1533,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, General Collection",
+            "creditLineAR": "متاحف قطر، المقتنيات العامة"
+          },
+          {
+            "url": "/media/images/IMM.PH.AB.9921.23.2_20240710_001.MQ.width-2048.jpg",
+            "width": 2048,
+            "height": 3490,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, General Collection",
+            "creditLineAR": "متاحف قطر، المقتنيات العامة"
+          }
+        ],
+        "card": [
+          {
+            "url": "/media/images/IMM.PH.AB.9921.23.2_20240710_001.MQ.width-180.jpg",
+            "width": 180,
+            "height": 306,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, General Collection",
+            "creditLineAR": "متاحف قطر، المقتنيات العامة"
+          },
+          {
+            "url": "/media/images/IMM.PH.AB.9921.23.2_20240710_001.MQ.width-360.jpg",
+            "width": 360,
+            "height": 613,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, General Collection",
+            "creditLineAR": "متاحف قطر، المقتنيات العامة"
+          }
+        ]
+      },
+      "relatedWebpages": [],
+      "object3dEmbed": [],
+      "coords": {
+        "latitude": 25.426495,
+        "longitude": 51.08912
+      }
+    },
+    {
+      "objectNumber": "QOSM.2010.131",
+      "titleEN": "2002 FIFA World Cup Postage Stamps",
+      "titleAR": "طوابع بريدية لكأس العالم لكرة القدم 2002",
+      "objectNameEN": "",
+      "objectNameAR": "",
+      "artistEN": "",
+      "artistAR": "",
+      "museum": {
+        "slug": "3-2-1-qatar-olympic-and-sports-museum",
+        "label": "3-2-1 Qatar Olympic and Sports Museum",
+        "labelEN": "3-2-1 Qatar Olympic and Sports Museum",
+        "labelAR": "3-2-1 متحف قطر الأولمبي والرياضي"
+      },
+      "openingTimes": [],
+      "summaryEN": "The State of Qatar issued this set of 18 commemorative postage stamps on the occasion of the 2002 FIFA World Cup, which was co-hosted by Korea and Japan. \n\nWithin the set, 17 stamps feature emblems or official posters of previous World Cups, and the last one depicts the 2002 FIFA World Cup trophy.",
+      "summaryAR": "أصدرت دولة قطر هذه المجموعة المكونة من 18 طابعاً بريدياً تذكارياً بمناسبة بطولة كأس العالم لكرة القدم 2002، والتي شاركت في استضافتها كوريا واليابان. \n\nتتضمن المجموعة 17 طابعاً تحمل شعارات أو ملصقات رسمية لبطولات كأس العالم السابقة، وآخرها يصور كأس كأس العالم لكرة القدم 2002.",
+      "objectImages": {
+        "original": [
+          {
+            "url": "/media/images/QOSM.2010.131_1.width-900.jpg",
+            "width": 900,
+            "height": 1309,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, 3-2-1 Qatar Olympic and Sports Museum",
+            "creditLineAR": "متاحف قطر، 3-2-1 متحف قطر الأولمبي والرياضي"
+          },
+          {
+            "url": "/media/images/QOSM.2010.131_1.width-2048.jpg",
+            "width": 2048,
+            "height": 2980,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, 3-2-1 Qatar Olympic and Sports Museum",
+            "creditLineAR": "متاحف قطر، 3-2-1 متحف قطر الأولمبي والرياضي"
+          }
+        ],
+        "card": [
+          {
+            "url": "/media/images/QOSM.2010.131_1.width-180.jpg",
+            "width": 180,
+            "height": 261,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, 3-2-1 Qatar Olympic and Sports Museum",
+            "creditLineAR": "متاحف قطر، 3-2-1 متحف قطر الأولمبي والرياضي"
+          },
+          {
+            "url": "/media/images/QOSM.2010.131_1.width-360.jpg",
+            "width": 360,
+            "height": 523,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, 3-2-1 Qatar Olympic and Sports Museum",
+            "creditLineAR": "متاحف قطر، 3-2-1 متحف قطر الأولمبي والرياضي"
+          }
+        ]
+      },
+      "relatedWebpages": [],
+      "object3dEmbed": [],
+      "coords": {
+        "latitude": 25.286308,
+        "longitude": 51.108448
+      }
+    },
+    {
+      "objectNumber": "PO.53.1999",
+      "titleEN": "Abbasid Splash Ware Bowl",
+      "titleAR": "سلطانية مرشوشة من الفخار العباسي",
+      "objectNameEN": "",
+      "objectNameAR": "",
+      "artistEN": "",
+      "artistAR": "",
+      "museum": {
+        "slug": "museum-of-islamic-art",
+        "label": "Museum of Islamic Art",
+        "labelEN": "Museum of Islamic Art",
+        "labelAR": "متحف الفن الإسلامي"
+      },
+      "openingTimes": [
+        {
+          "openingAt": "15:00",
+          "closingAt": "22:00",
+          "weekday": {
+            "number": 0,
+            "name": "Sunday"
+          }
+        },
+        {
+          "openingAt": "13:00",
+          "closingAt": "21:00",
+          "weekday": {
+            "number": 1,
+            "name": "Monday"
+          }
+        },
+        {
+          "openingAt": "00:00",
+          "closingAt": "23:59",
+          "weekday": {
+            "number": 2,
+            "name": "Tuesday"
+          }
+        },
+        {
+          "openingAt": "00:00",
+          "closingAt": "23:59",
+          "weekday": {
+            "number": 3,
+            "name": "Wednesday"
+          }
+        },
+        {
+          "openingAt": "",
+          "closingAt": "",
+          "weekday": {
+            "number": 4,
+            "name": "Thursday"
+          }
+        },
+        {
+          "openingAt": "",
+          "closingAt": "",
+          "weekday": {
+            "number": 5,
+            "name": "Friday"
+          }
+        },
+        {
+          "openingAt": "",
+          "closingAt": "",
+          "weekday": {
+            "number": 6,
+            "name": "Saturday"
+          }
+        }
+      ],
+      "summaryEN": "This bowl is an example of splash ware, a type of pottery made throughout Iraq, Iran, and western Central Asia. Influenced by the Tang dynasty (618-907 CE) Chinese wares, which were mainly decorated in a combination of green, yellow, and brown glazes, this distinctive style of pottery reflects the widespread trade of Chinese ceramics along the Silk Road.  While these Chinese imports were highly valued and prized – as stated in both texts of the period and surviving funerary wares – Islamic potters soon started imitating these wares using a variety of locally sourced materials. Despite its popularity under the Abbasid period, splash ware seems to have fallen out of fashion sometime in the 5th century AH/11th century CE. ",
+      "summaryAR": "هذه السلطانية هي مثال على الأواني الفخارية \"المرسومة\"، وهي نوع من الفخار كان يصنع في جميع أنحاء العراق وإيران وغرب آسيا الوسطى. يعكس هذا الأسلوب من الفخار المتأثر بأواني سلالة تانغ (618م - 907م) الصينية -التي كانت تُزين بشكل أساسي بمزيج من الزجاج الأخضر والأصفر والبني المميز- التجارة واسعة النطاق للخزف الصيني على طول طريق الحرير. ورغم أن هذه الواردات الصينية كانت ذات قيمة عالية وثمينة- وفقاً لما هو مذكور في النصين اللذين يذكران الفترة والأواني الجنائزية الباقية – إلا أن الخزافين المسلمين سرعان ما بدأوا بتقليد هذه الأواني باستخدام مجموعة متنوعة من المواد من مصادر محلية. يبدو أن الأواني من هذا النوع قد تلاشت في وقت ما في القرن الخامس الهجري / القرن الحادي عشر الميلادي على الرغم من شعبيتها في العصر العباسي.",
+      "objectImages": {
+        "original": [
+          {
+            "url": "/media/images/PO.53.1999_001_Beauty.MQ.width-900.jpg",
+            "width": 900,
+            "height": 608,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, Museum of Islamic Art. Photo: Chrysovalantis Lamprianidis",
+            "creditLineAR": "متاحف قطر، متحف الفن الإسلامي. الصورة: كريسوفالانتس لامبريانيديس"
+          },
+          {
+            "url": "/media/images/PO.53.1999_001_Beauty.MQ.width-2048.jpg",
+            "width": 2048,
+            "height": 1384,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, Museum of Islamic Art. Photo: Chrysovalantis Lamprianidis",
+            "creditLineAR": "متاحف قطر، متحف الفن الإسلامي. الصورة: كريسوفالانتس لامبريانيديس"
+          }
+        ],
+        "card": [
+          {
+            "url": "/media/images/PO.53.1999_001_Beauty.MQ.width-180.jpg",
+            "width": 180,
+            "height": 121,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, Museum of Islamic Art. Photo: Chrysovalantis Lamprianidis",
+            "creditLineAR": "متاحف قطر، متحف الفن الإسلامي. الصورة: كريسوفالانتس لامبريانيديس"
+          },
+          {
+            "url": "/media/images/PO.53.1999_001_Beauty.MQ.width-360.jpg",
+            "width": 360,
+            "height": 243,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, Museum of Islamic Art. Photo: Chrysovalantis Lamprianidis",
+            "creditLineAR": "متاحف قطر، متحف الفن الإسلامي. الصورة: كريسوفالانتس لامبريانيديس"
+          }
+        ]
+      },
+      "relatedWebpages": [],
+      "object3dEmbed": [],
+      "coords": {
+        "latitude": 25.42706,
+        "longitude": 51.190127
+      }
+    },
+    {
+      "objectNumber": "CA.3.1997",
+      "titleEN": "The Rothschild Polonaise Carpet",
+      "titleAR": "سجادة روتشايلد البولونية",
+      "objectNameEN": "",
+      "objectNameAR": "",
+      "artistEN": "",
+      "artistAR": "",
+      "museum": {
+        "slug": "museum-of-islamic-art",
+        "label": "Museum of Islamic Art",
+        "labelEN": "Museum of Islamic Art",
+        "labelAR": "متحف الفن الإسلامي"
+      },
+      "openingTimes": [
+        {
+          "openingAt": "15:00",
+          "closingAt": "22:00",
+          "weekday": {
+            "number": 0,
+            "name": "Sunday"
+          }
+        },
+        {
+          "openingAt": "13:00",
+          "closingAt": "21:00",
+          "weekday": {
+            "number": 1,
+            "name": "Monday"
+          }
+        },
+        {
+          "openingAt": "00:00",
+          "closingAt": "23:59",
+          "weekday": {
+            "number": 2,
+            "name": "Tuesday"
+          }
+        },
+        {
+          "openingAt": "00:00",
+          "closingAt": "23:59",
+          "weekday": {
+            "number": 3,
+            "name": "Wednesday"
+          }
+        },
+        {
+          "openingAt": "",
+          "closingAt": "",
+          "weekday": {
+            "number": 4,
+            "name": "Thursday"
+          }
+        },
+        {
+          "openingAt": "",
+          "closingAt": "",
+          "weekday": {
+            "number": 5,
+            "name": "Friday"
+          }
+        },
+        {
+          "openingAt": "",
+          "closingAt": "",
+          "weekday": {
+            "number": 6,
+            "name": "Saturday"
+          }
+        }
+      ],
+      "summaryEN": "This silk and metallic brocade rug is known as the \"Rothschild Polonaise Carpet\" after its illustrious former owner. Such carpets, characterised by a restrained palette of bright and warm hues of yellows, cream and browns and a minute pattern of latticework of foliage and palmettes and the use of gold and silver (now tarnished) threads, were woven in the royal workshops established during the reign of Shah 'Abbas I  between the late 10th and the early 11th century AH (end of 16th and the early 17th century CE). Their production continued in various workshops across Iran throughout the 11th century AH/17th century CE. They were often offered as royal gift to foreign rulers and diplomats, hence their presence in Europe in several aristocratic households. The adjective \"Polonaise\" (lit. Polish) refers to what was considered in the past the region of production of such particular rugs. It was given by the end of the 19th century CE in France, when a group of carpets of this kind was exhibited to the public. The motifs woven into the carpets led viewers to assume they were Central European textiles, and the name endured. The luxurious materials and fine workmanship mark these carpets as a distinct corpus, alongside their decorative motifs and overall outlook.",
+      "summaryAR": "يُعرف هذا البساط المصنوع من الديباج الحريري والمعدني باسم \"سجادة روتشيلد  بولونيز\" نسبة إلى مالكها السابق. تميز هذا النوع من السجاد، بألوانه الرزينة ذات التدرجات الزاهية الدافئة من الأصفر والقشدي والبني، مع نمط دقيق من التشبيك من أوراق الشجر والسعيفات واستخدام الخيوط الذهبية والفضية (أصبحت باهتة الآن)، وكان يُصنع في الورش الملكية التي تم إنشاؤها خلال عهد الشاه عباس الأول بين أواخر القرن العاشر وأوائل القرن الحادي عشر الهجري (نهاية القرن السادس عشر وأوائل القرن السابع عشر). استمر إنتاجه في ورش عمل مختلفة في جميع أنحاء إيران طوال القرن الحادي عشر الهجري (القرن السابع عشر الميلادي). غالباً ما كان يتم تقديم هذا النوع الراقي من السجاد كهدايا ملكية للحكام والدبلوماسيين الأجانب، وهذا هو السبب في وجودها في العديد من المساكن الأرستقراطية الأوروبية. تشير صفة \"Polonaise\" (وتعني بولندي) إلى ما كان يعتبر في الماضي منطقة إنتاج هذا النوع من السجاد. ظهرت هذه السجادات في فرنسا، نهاية القرن التاسع عشر الميلادي، عندما تم عرض مجموعة منها للجمهور. دفعت الزخارف المنسوجة على السجاد المشاهدين إلى افتراض أنها منسوجات من أوروبا الوسطى، وهكذا احتفظت بهذا الاسم. تضفي المواد الفاخرة والصنعة الدقيقة على هذه السجادات صفة التميز، ناهيك عن زخارفها التزيينية ومظهرها العام.",
+      "objectImages": {
+        "original": [
+          {
+            "url": "/media/images/CA.3.1997_001_layers.MQ.width-900.jpg",
+            "width": 900,
+            "height": 1308,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, Museum of Islamic Art. Photo: Chrysovalantis Lamprianidis",
+            "creditLineAR": "متاحف قطر، متحف الفن الإسلامي. الصورة: كريسوفالانتس لامبريانيديس"
+          },
+          {
+            "url": "/media/images/CA.3.1997_001_layers.MQ.width-2048.jpg",
+            "width": 2048,
+            "height": 2976,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, Museum of Islamic Art. Photo: Chrysovalantis Lamprianidis",
+            "creditLineAR": "متاحف قطر، متحف الفن الإسلامي. الصورة: كريسوفالانتس لامبريانيديس"
+          }
+        ],
+        "card": [
+          {
+            "url": "/media/images/CA.3.1997_001_layers.MQ.width-180.jpg",
+            "width": 180,
+            "height": 261,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, Museum of Islamic Art. Photo: Chrysovalantis Lamprianidis",
+            "creditLineAR": "متاحف قطر، متحف الفن الإسلامي. الصورة: كريسوفالانتس لامبريانيديس"
+          },
+          {
+            "url": "/media/images/CA.3.1997_001_layers.MQ.width-360.jpg",
+            "width": 360,
+            "height": 523,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, Museum of Islamic Art. Photo: Chrysovalantis Lamprianidis",
+            "creditLineAR": "متاحف قطر، متحف الفن الإسلامي. الصورة: كريسوفالانتس لامبريانيديس"
+          }
+        ]
+      },
+      "relatedWebpages": [],
+      "object3dEmbed": [],
+      "coords": {
+        "latitude": 25.29942,
+        "longitude": 51.246081
+      }
+    },
+    {
+      "objectNumber": "QOSM.2013.6.233",
+      "titleEN": "Paris 1900 Olympic Poster",
+      "titleAR": "ملصق أولمبياد باريس 1900",
+      "objectNameEN": "",
+      "objectNameAR": "",
+      "artistEN": "",
+      "artistAR": "",
+      "museum": {
+        "slug": "3-2-1-qatar-olympic-and-sports-museum",
+        "label": "3-2-1 Qatar Olympic and Sports Museum",
+        "labelEN": "3-2-1 Qatar Olympic and Sports Museum",
+        "labelAR": "3-2-1 متحف قطر الأولمبي والرياضي"
+      },
+      "openingTimes": [],
+      "summaryEN": "The 1900 Olympics were held during the World’s Fair in Paris.  Although there was no official poster produced for the promotion of the Games, the organisers circulated some for specific sporting contests. This example, focusing on the fencing competition, was created by Jean de Paleologu (1860 – 1942) (signs as ‘PAL’). Originally from Romania, Paleologu lived and worked in Paris and the United States, producing illustrations for well-known magazines and newspapers. \n\nWhile visually striking, this large poster is also misleading; women did not take part in Olympic fencing events until 1924.",
+      "summaryAR": "أقيمت دورة الألعاب الأولمبية لعام 1900 ضمن فعاليات معرض باريس العالمي. وعلى الرغم من عدم وجود ملصق رسمي للترويج للألعاب، فإن المنظمين وزّعوا بعض الملصقات لمسابقات رياضية معينة. هذا المثال الظاهر هنا، والذي يركز على مسابقة المبارزة، هو من تصميم جان دي باليولوغو (1860 - 1942) (يوقّع أعماله باسم \"بال\"). جاء باليولوغو من رومانيا، وعاش وعمل في باريس والولايات المتحدة، ورسم لصالح مجلات وصحف مشهورة. \n\nومع أن هذا الملصق الكبير ملفت للنظر، فإنه يجعل من يراه يظن خطأً أن النساء شاركن في منافسات المبارزة الأولمبية، وهو ما لم يحصل حتى عام 1924.",
+      "objectImages": {
+        "original": [
+          {
+            "url": "/media/images/QOSM.2013.6.233.width-900.jpg",
+            "width": 900,
+            "height": 1242,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, 3-2-1 Qatar Olympic and Sports Museum",
+            "creditLineAR": "متاحف قطر، 3-2-1 متحف قطر الأولمبي والرياضي"
+          },
+          {
+            "url": "/media/images/QOSM.2013.6.233.width-2048.jpg",
+            "width": 2048,
+            "height": 2827,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, 3-2-1 Qatar Olympic and Sports Museum",
+            "creditLineAR": "متاحف قطر، 3-2-1 متحف قطر الأولمبي والرياضي"
+          }
+        ],
+        "card": [
+          {
+            "url": "/media/images/QOSM.2013.6.233.width-180.jpg",
+            "width": 180,
+            "height": 248,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, 3-2-1 Qatar Olympic and Sports Museum",
+            "creditLineAR": "متاحف قطر، 3-2-1 متحف قطر الأولمبي والرياضي"
+          },
+          {
+            "url": "/media/images/QOSM.2013.6.233.width-360.jpg",
+            "width": 360,
+            "height": 497,
+            "focalPoint": {
+              "x": 50,
+              "y": 50
+            },
+            "altTextEN": "",
+            "altTextAR": "",
+            "creditLineEN": "Qatar Museums, 3-2-1 Qatar Olympic and Sports Museum",
+            "creditLineAR": "متاحف قطر، 3-2-1 متحف قطر الأولمبي والرياضي"
+          }
+        ]
+      },
+      "relatedWebpages": [],
+      "object3dEmbed": [],
+      "coords": {
+        "latitude": 25.338687,
+        "longitude": 51.170633
+      }
+    }
+  ]
+}
