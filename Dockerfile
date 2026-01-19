@@ -27,7 +27,7 @@ COPY --from=builder /app/stub-exhibits-api .
 COPY --from=builder /app/exhibits.json .
 COPY --from=builder /app/qm_data.json .
 
-EXPOSE 8080
+EXPOSE 8000
 
 CMD ["./stub-exhibits-api"]
 
