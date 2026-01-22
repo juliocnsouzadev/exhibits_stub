@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"io"
 	"log"
 	"net/http"
 	"os"
@@ -209,6 +210,16 @@ func main() {
 
 	http.HandleFunc("/artefacts", func(w http.ResponseWriter, r *http.Request) {
 		infoLogger.Printf("Received request: %s %s from %s", r.Method, r.URL.Path, r.RemoteAddr)
+
+		// CORS headers (allow GET and POST)
+		w.Header().Set("Access-Control-Allow-Origin", "*")
+		w.Header().Set("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+		w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+		if r.Method == http.MethodOptions {
+			w.WriteHeader(http.StatusNoContent)
+			return
+		}
+
 		filePath, err := findFile("qm_data.json")
 		if err != nil {
 			http.Error(w, "Error finding `qm_data.json`: "+err.Error(), http.StatusInternalServerError)
@@ -229,33 +240,70 @@ func main() {
 			return
 		}
 
-		// Filter by objectNumbers if provided
-		objectNumbersParam := r.URL.Query().Get("objectNumbers")
 		var filteredArtefacts []ArtefactDTO
 
-		if objectNumbersParam != "" {
-			// Parse objectNumbers from comma-separated string
-			var targetObjectNumbers []string
-			for _, objNum := range strings.Split(objectNumbersParam, ",") {
-				targetObjectNumbers = append(targetObjectNumbers, strings.TrimSpace(objNum))
+		switch r.Method {
+		case http.MethodPost:
+			// Read body and look for objectNumbers array
+			bodyBytes, err := io.ReadAll(r.Body)
+			if err != nil {
+				http.Error(w, "Error reading request body", http.StatusBadRequest)
+				errorLogger.Printf("Error reading request body: %v", err)
+				return
 			}
 
-			// Filter artefacts
-			for _, artefact := range qmResponse.Results {
-				for _, targetObjNum := range targetObjectNumbers {
-					if artefact.ObjectNumber == targetObjNum {
-						filteredArtefacts = append(filteredArtefacts, artefact)
-						break
+			if len(bodyBytes) == 0 {
+				filteredArtefacts = qmResponse.Results
+			} else {
+				var body struct{
+					ObjectNumbers []string `json:"objectNumbers"`
+				}
+				if err := json.Unmarshal(bodyBytes, &body); err != nil {
+					http.Error(w, "Invalid JSON body", http.StatusBadRequest)
+					errorLogger.Printf("Invalid JSON body: %v", err)
+					return
+				}
+
+				if len(body.ObjectNumbers) == 0 {
+					filteredArtefacts = qmResponse.Results
+				} else {
+					// Filter artefacts by provided object numbers
+					for _, artefact := range qmResponse.Results {
+						for _, targetObjNum := range body.ObjectNumbers {
+							if artefact.ObjectNumber == targetObjNum {
+								filteredArtefacts = append(filteredArtefacts, artefact)
+								break
+							}
+						}
 					}
 				}
 			}
-		} else {
-			filteredArtefacts = qmResponse.Results
-		}
 
-		w.Header().Set("Access-Control-Allow-Origin", "*")
-		w.Header().Set("Access-Control-Allow-Methods", "GET, OPTIONS")
-		w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+		case http.MethodGet:
+			// Filter by objectNumbers if provided in query string
+			objectNumbersParam := r.URL.Query().Get("objectNumbers")
+			if objectNumbersParam != "" {
+				var targetObjectNumbers []string
+				for _, objNum := range strings.Split(objectNumbersParam, ",") {
+					targetObjectNumbers = append(targetObjectNumbers, strings.TrimSpace(objNum))
+				}
+
+				for _, artefact := range qmResponse.Results {
+					for _, targetObjNum := range targetObjectNumbers {
+						if artefact.ObjectNumber == targetObjNum {
+							filteredArtefacts = append(filteredArtefacts, artefact)
+							break
+						}
+					}
+				}
+			} else {
+				filteredArtefacts = qmResponse.Results
+			}
+
+		default:
+			http.Error(w, "Method not allowed", http.StatusMethodNotAllowed)
+			return
+		}
 
 		w.Header().Set("Content-Type", "application/json")
 		if err := json.NewEncoder(w).Encode(filteredArtefacts); err != nil {
@@ -266,5 +314,7 @@ func main() {
 	infoLogger.Println("Starting server on 0.0.0.0:8080")
 	if err := http.ListenAndServe("0.0.0.0:8080", nil); err != nil {
 		errorLogger.Fatal(err)
+	} else {
+		infoLogger.Println("Server stopped")
 	}
 }
